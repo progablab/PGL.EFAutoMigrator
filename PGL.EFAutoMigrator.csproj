@@ -24,4 +24,7 @@
 	  <EmbeddedResource Remove="packages\**" />
 	  <None Remove="packages\**" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove=".gitignore" />
+	</ItemGroup>
 </Project>
