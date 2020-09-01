@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGL.EFCFExtensions", "PGL.EFCFExtensions.csproj", "{D1032397-BD2C-4443-BE85-4B7A91BA67CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGL.EFAutoMigrator", "PGL.EFAutoMigrator.csproj", "{D1032397-BD2C-4443-BE85-4B7A91BA67CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
