@@ -2,6 +2,10 @@
 	<PropertyGroup>
 		<TargetFrameworks>net40;netcoreapp3.1;</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>Avoid Entity Framework Code First PowerShell database migration exercises to keep your models &amp; database structure synchronized. Databases will auto-migrated to match your models at startup.</Description>
+		<PackageProjectUrl>https://github.com/progablab/PGL.EFAutoMigrator</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/progablab/PGL.EFAutoMigrator</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
 		<PackageReference Include="CentridNet.EFCoreAutoMigrator">
