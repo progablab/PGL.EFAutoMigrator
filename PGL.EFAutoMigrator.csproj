@@ -6,6 +6,8 @@
 		<PackageProjectUrl>https://github.com/progablab/PGL.EFAutoMigrator</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/progablab/PGL.EFAutoMigrator</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">
 	  <DocumentationFile>C:\Users\G\source\repos\PGL.EFAutoMigrator\PGL.EFAutoMigrator.xml</DocumentationFile>
@@ -30,6 +32,10 @@
 	  <Compile Remove="packages\**" />
 	  <EmbeddedResource Remove="packages\**" />
 	  <None Remove="packages\**" />
+	  <None Include="LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove=".gitignore" />
